@@ -1,0 +1,11 @@
+MKDIR
+c:/mdos/programs/comparer
+COPY
+#DESTINATION
+c:/mdos/programs/comparer/
+ver.inf
+Name
+ver.inf
+comparer.apt
+Name
+comparer.exe
