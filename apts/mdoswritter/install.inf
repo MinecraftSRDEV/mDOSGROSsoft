@@ -1,1 +1,11 @@
-c:/mdos/programs/linecounter/writter.exe
+MKDIR
+c:/mdos/programs/writter
+COPY
+#DESTINATION
+c:/mdos/programs/writter/
+ver.inf
+Name
+ver.inf
+writter.apt
+Name
+mdos_writter.exe
