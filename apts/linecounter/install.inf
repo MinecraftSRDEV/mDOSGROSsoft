@@ -1,4 +1,12 @@
 MKDIR
 c:/mdos/programs/linecounter
 COPY
-c:/mdos/programs/linecounter/line_counter.exe
+#DESTINATION
+c:/mdos/programs/linecounter
+ver.inf
+Name
+ver.inf
+linecounter.apt
+Name
+line_counter.exe
+
