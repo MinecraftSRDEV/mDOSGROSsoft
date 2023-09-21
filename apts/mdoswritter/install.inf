@@ -1,11 +1,11 @@
 MKDIR
-c:/mdos/programs/writter
+c:/mdos/programs/mdoswritter
 COPY
 #DESTINATION
-c:/mdos/programs/writter/
+c:/mdos/programs/mdoswritter/
 ver.inf
 Name
 ver.inf
-writter.apt
+mdoswritter.apt
 Name
 mdos_writter.exe
