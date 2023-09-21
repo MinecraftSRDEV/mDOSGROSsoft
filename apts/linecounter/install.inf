@@ -2,7 +2,7 @@ MKDIR
 c:/mdos/programs/linecounter
 COPY
 #DESTINATION
-c:/mdos/programs/linecounter
+c:/mdos/programs/linecounter/
 ver.inf
 Name
 ver.inf
