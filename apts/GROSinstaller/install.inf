@@ -7,7 +7,7 @@ c:/mdos/GOS/programs
 c:/mdos/GOS/usericons
 COPY
 #DESTINATION
-c:/mdos/GOS
+c:/mdos/GOS/
 ver.inf
 Name
 ver.inf
@@ -36,7 +36,7 @@ settings_background.bmp
 Name
 settings_background.bmp
 #DESTINATION
-c:/mdos/GOS/lockscreen_wallpapers
+c:/mdos/GOS/lockscreen_wallpapers/
 1_wp.bmp
 Name
 1.bmp
@@ -89,7 +89,7 @@ Name
 Name
 17.bmp
 #DESTINATION
-c:/mdos/GOS/programs
+c:/mdos/GOS/programs/
 chrome.lnk
 Name
 chrome.lnk
@@ -121,7 +121,7 @@ scrout_creator.apt
 Name
 scrout_creator.exe
 #DESTINATION
-c:/mdos/GOS/usericons
+c:/mdos/GOS/usericons/
 1.bmp
 Name
 1.bmp
@@ -153,6 +153,7 @@ Name
 Name
 10.bmp
 #DESTINATION
+c:/mdos/GOS/wallpapers/
 BLACK.bmp
 Name
 BLACK.bmp
@@ -304,7 +305,7 @@ yellow_somethink.bmp
 Name
 yellow_somethink.bmp
 #DESTINATION
-c:/mdos/GOS/textures
+c:/mdos/GOS/textures/
 accountinfo.bmp
 Name
 accountinfo.bmp
