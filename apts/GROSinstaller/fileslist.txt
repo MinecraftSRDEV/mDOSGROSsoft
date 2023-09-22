@@ -1,0 +1,10 @@
+chrome.lnk
+copier.exe
+ext_inst.exe
+firefox.lnk
+folder_creator.exe
+folder_creator_cont.exe
+iexplore.lnk
+paster.exe
+remover.exe
+scrout_creator.exe
