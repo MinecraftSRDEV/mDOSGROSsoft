@@ -1,6 +1,13 @@
 install.inf
 ver.inf
 Clicker.apt
+libgcc_s_seh_64-1.dll
+libstdc++_64-6.dll
+openal32.dll
+sfml-audio-d-2.dll
+sfml-graphics-d-2.dll
+sfml-system-d-2.dll
+sfml-window-d-2.dll
 acacia_log_top.png
 ancient_debris_top.png
 birch_log_top.png
