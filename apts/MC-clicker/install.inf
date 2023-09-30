@@ -20,6 +20,7 @@ c:/mdos/GOS/textures/clicker/UI/flame
 c:/mdos/GOS/textures/clicker/UI/messagebox_texts
 c:/mdos/programs/games
 c:/mdos/programs/games/MCclicker
+COPY
 #DESTINATION
 c:/mdos/programs/games/MCclicker/
 ver.inf
