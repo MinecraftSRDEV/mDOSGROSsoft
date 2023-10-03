@@ -1,0 +1,8 @@
+MKDIR
+c:/mdos/programs/testapt
+COPY
+#DESTINATION
+c:/mdos/programs/testapt/
+ver.inf
+Name
+ver.inf
