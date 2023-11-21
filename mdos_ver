@@ -1,1 +1,14 @@
-4.0
+4.1
+{
+	[
+		{
+			"version_type":"stable"
+		},
+		{
+			"importance_level":"important"
+		},
+		{
+			"update_comment":"Small#SPACEimprovements#SPACEin#SPACEmDOS#SPACEupdate#SPACEservice"
+		}	
+	]
+}
