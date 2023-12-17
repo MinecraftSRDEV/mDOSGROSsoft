@@ -1,4 +1,4 @@
-4.1
+4.2
 {
 	[
 		{
@@ -8,7 +8,21 @@
 			"importance_level":"important"
 		},
 		{
-			"update_comment":"Small#SPACEimprovements#SPACEin#SPACEmDOS#SPACEupdate#SPACEservice"
+			"update_comment":"Support#SPACEfor#SPACEspaces#SPACEin#SPACEpaths#SPACE#SPACECurrent#SPACEdirectory#SPACEare#SPACEdisplayed#SPACEafter#SPACE$>"
+		}	
+	]
+}
+4.2DEV1
+{
+	[
+		{
+			"version_type":"experimental"
+		},
+		{
+			"importance_level":"small"
+		},
+		{
+			"update_comment":"Support#SPACEfor#SPACEspaces#SPACEin#SPACEpaths#SPACE#SPACECurrent#SPACEdirectory#SPACEare#SPACEdisplayed#SPACEafter#SPACE$>"
 		}	
 	]
 }
