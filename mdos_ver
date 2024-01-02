@@ -12,17 +12,17 @@
 		}	
 	]
 }
-4.3
+4.4DEV1
 {
 	[
 		{
-			"version_type":"stable"
+			"version_type":"experimental"
 		},
 		{
-			"importance_level":"important"
+			"importance_level":"optional"
 		},
 		{
-			"update_comment":"Big#SPACEUpdate,#SPACEand#SPACEcritical#SPACEbug#SPACEfix"
+			"update_comment":"New#SPACEmethod#SPACEfor#SPACEfinding#SPACEfiles#SPACEand#SPACEfolders"
 		}	
 	]
 }
