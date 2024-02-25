@@ -12,7 +12,7 @@
 		}	
 	]
 }
-4.4DEV1
+4.4DEV2
 {
 	[
 		{
@@ -22,7 +22,7 @@
 			"importance_level":"optional"
 		},
 		{
-			"update_comment":"New#SPACEmethod#SPACEfor#SPACEfinding#SPACEfiles#SPACEand#SPACEfolders"
+			"update_comment":"Small#SPACEGAPT#SPACEimprovements"
 		}	
 	]
 }
