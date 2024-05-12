@@ -12,7 +12,7 @@
 		}	
 	]
 }
-4.4DEV3
+4.4DEV4
 {
 	[
 		{
@@ -22,7 +22,7 @@
 			"importance_level":"optional"
 		},
 		{
-			"update_comment":"Another#SPACEupdate#SPACEfocused#SPACEon#SPACEoptimalizations,#SPACEbut#SPACEnot#SPACEonly#SPACEon#SPACEit.#SPACEYou#SPACEcan#SPACEadd#SPACEyour#SPACEcustom#SPACEcoldboot#SPACEanimation,#SPACEand#SPACEprotect#SPACEyour#SPACEfiles#SPACEby#SPACEaccount#SPACEautentication"
+			"update_comment":"A#SPACEColorfully#SPACEupdate"
 		}	
 	]
 }
