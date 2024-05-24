@@ -1,0 +1,8 @@
+install.inf
+ver.inf
+api.hpp
+comunication.hpp
+defines.hpp
+disconnect.hpp
+load.hpp
+

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 style="font-size: 24px; color: white;">
+            Dokumentacja techniczna mDOS
+            <hr>
+        </h1>
+
+        <style>
+            @import "buttons_attibutes.css";
+        </style>
+    </head>
+
+    <body style="background-color: black;">
+        
+        <div id="main">
+            <h1 style="color: white"> Skróty </h1>
+
+            <button id="ID_goto_Setup" onclick="fn_scrollToSetup()"> Instalacja/konfiguracja</button>
+            <button id="ID_goto_startupMenu" onclick="fn_scrollToStartupMenu()"> Menu startowe</button>
+            <button id="ID_goto_commandList" onclick="fn_scrollToCommandList()"> Lista komend</button>
+            <button id="ID_goto_commandDeskript" onclick="fn_scrollToCommandDescript()"> Szczegółowy opis komend</button>
+
+            <button id="ID_gotop" onclick="topFunction()"> Na górę</button>
+        </div>
+        <hr>
+
+        <div id="target">
+
+            <h1 id="setup" style="color: white;">
+                Instalacja i konfiguracja poczatkowa <br>
+            </h1>
+
+            <p id="setup_info;" style="font-size: 16px; color: white;">
+                <strong style="color: red"> mDOS nie może zostać uruchomiony bez zainstalowania!</strong> <br>
+                Obecnie nie ma możliwości instalacji w innej lokalizacji niż "c:/". <br>
+                Instalator po zgodzeniu się na instalację sam utworzy odpowiednią strukturę katalogów.<br>
+                Po zakończeniu procesu instalacji całą strukturę katalogów możesz znaleść w "c:/mDOS". <br> <br>
+                
+                Konfiguracja poczatkowa <br> <br>
+                Wybierz jeden z preinstalowanych języków. <br>
+                By wybrać język Polski należy wpisać "pl". <br> <br>
+
+                Tworzenie użytkownika/OOBE <br>
+                Po szczegółowe informacje <button id="ID_goto_userCreation" onclick="fn_scrollToUserCreation()"> Przejdź tutaj</button> <br>
+
+            </p>
+
+            <hr>
+
+            <h1 id="startup_menu" style="color: white;">
+                Menu startowe <br>
+            </h1>
+
+            <p id="setup_info;" style="font-size: 16px; color: white;">
+                By wejść do menu startowego nalerzy trzymać F3 na ekranie uruchamiania (starting mDOS...) <br>
+
+                <pWARN style="font-size: 16px; color: red;"> Jest to miejsce do którego nie powinien wchodzić nieznający sie użytkownik. </pWARN> <br>
+
+                Dostępne opcje: <br> <br>
+
+                [ 1 ] Normalne uruchomienie mDOS <br> <br>
+                Powraca do procedury OOBE (ekran logowania) <br> <br>
+
+                [ 2 ] Tryb awaryjny <br> <br>
+                Pomija procedure OOBE, oraz ładowanie danych z pliku konfiguracyjnego i loguje się na wbudowanego administratora z domyslnymi ustawieniami <br>
+                <pWARN style="font-size: 16px; color: red;"> W tym trybie cały system jest JEDYNIE po Angielksu </pWARN> <br> <br>
+
+                <element id="BM_config_reset"> </element>
+                [ 3 ] Reset pliku konfiguracyjnego do ustawień domyślnych <br> <br>
+                Przywraca plik konfiguracyjny do ustawień domyślnych <br>
+                Tę opcje należy urzyć JEDYNIE w wypadkach uszkodzenia pliku konfiguracyjnego lub pojawiających się anomalii takich jak: <br>
+                - brak wyświetlania tekstu w systemie <br>
+                - brak coloru w systemie <br>
+                - brak możliwości sprawdzenia aktualizacji <br> <br>
+                <pWARN style="font-size: 16px; color: red;"> Pamiętaj, że użycie tej opcji spowoduje utracenie wcześniej zapisanej konfiguracji! </pWARN> <br> <br>
+
+                [ 4 ] Logowanie jako administrator <br> <br>
+                Spowoduje to zalogowanie na konto wbudowanego administratora <br>
+                Można tego użyć gdy z jakiegoś powodu jedyne konto użytkownika zostanie uszkodzene/usunięte/utracone by ręcznie naprawić problem <br> <br>
+
+                [ 5 ] Konwertowanie hasła użytkownika <br> <br>
+                Po szczegółowe informacje <button id="ID_goto_PasswordConv" onclick="fn_scrollToPasswordConversion()"> Przejdź tutaj</button> <br> <br>
+
+                [ 6 ] Wyłączenie mDOS <br> <br>
+                Zamyka system <br>
+            </p>
+
+            <hr>
+
+            <h1 id="command_list" style="color: white;">
+                Lista zawartych komend
+                <br> 
+            </h1>
+
+            <p id="version_for" style="font-size: 20px; color: red;">
+                DO WERSJI 4.3 I WYRZSZYCH
+            </p>
+            <br>
+
+            <p id="command_list_expand" style="font-size: 16px; color: white;">
+                Podstawowe komendy
+                <br>
+                <br>
+
+                CLS <br>
+                ACCSTAT <br>
+                DOSINFO <br>
+                LOGOFF <br>
+                LANGCHN <br>
+                AUTOCLEAN <br>
+                USRLIST <br>
+                COLOR <br>
+                QUICKLINK <br>
+                UPDCHK <br>
+                AUTOSTART <br>
+                CAL <br>
+                FTPSRV <br>
+                QUIT <br>
+                <br>
+                <br>
+
+                Operacje na plikach
+                <br>
+                <br>
+
+                DIR <br>
+                CD <br>
+                TREE <br>
+                READ <br>
+                READALL <br>
+                OPEN <br>
+                REN <br>
+                CRFILE <br>
+                MKDIR <br>
+                RMDIR <br>
+                MVDIR <br>
+                REMOVE <br>
+                FIND <p2 style="color: orange;">  (OD wersji 4.4DEV1) </p2> <br> 
+                <br>
+                <br>
+                
+                Komendy wymagające uprawnień administratora
+                <br>
+                <br>
+
+                USERSETTINGS <br>
+                LOCKFILE <br>
+                RECONFIG <br>
+                GAPT <br>
+                <hr>
+            </p>
+
+            <p2 id="command_description" style="font-size: 24px; color: white;">
+                
+                CLS <br>
+                <p2 style="font-size: 16px; color: white;"> Czyści cały tekst wyświetlany w lini poleceń mDOS </p2>
+                <hr>
+                
+                ACCSTAT <br>
+                <p2 style="font-size: 16px; color: white;"> 
+                    Wyswietla ustawienia konta zalogowanego urzytkownika <br><br>
+                    1. posiadane uprawnienia <br> 
+                    możliwe ustawienia: <br> 
+                    admin = Może urzywać wszystkich funkcji zawarthch w systemie, nie ma ograniczeń <br> 
+                    user = Ma ograniczony dostęp do funkcji, jednak może ich urzyć po podaniu odpowiednich danych konta dowolnego urzytkownika posiadającego uprawnienia administratora <br> 
+                    <br>
+                    2. konto zahasłowane <br> 
+                    możliwe ustawienia <br>
+                    n = konto nie urzywa zapisanego hasła <br>
+                    y = konto jest zahasłowane i jest ono wymagane do logowania <br>
+                    <br>
+                    3. zapisane hasło <br>
+                    Jest zawsze przypisane do konta urzytkownika nawet jeśli jest nie urzywane. Domyślnie wyświetlane tu jest odszyfrowanie i ukryte. Nie ma obecnie możliwości podejrzenia go w prosty sposób. <br>
+                    <br>
+                    4. nazwa urzytkownika <br>
+                    Podobnie jak hasło równierz jest nieodłącznym elementem konta urzytkownika. Urzywana obecnie jedynie przez starsze wersje mDOS oraz aplikacje pisane z myślą o nich. <br>
+                </p2>
+                <hr>
+
+                DOSINFO <br>
+                <p2 style="font-size: 16px; color: white;"> Wyswietla informacje o zainstalowanej wersji mDOS <br>
+                    <pWARN style="font-size: 16px; color: red;"> Wersje mDOS poniżej 4.0 nie nadpisują sumy kontrolnej zainstalowanej wesji a jedynie zaciagają ją z pliku "version.inf" w folderze głównym. Zatem jeśli nowsza instancja mDOS już istnieje, starsza będzie wyświetlać nieprawidłowy numer</pWARN>
+                </p2>
+                <hr>
+
+                LOGOFF <br>
+                <p2 style="font-size: 16px; color: white;"> Wylogowuje obecnie zalogowanego urzytkownika <br>
+                    <pWARN style="font-size: 16px; color: red;"> Wylogowanie z konta nie przeprowadza automatycznego oczyszczenia tymczasowych danych. </pWARN>
+                </p2>
+                <hr>
+
+                LANGCHN <br>
+                <p2 style="font-size: 16px; color: white;"> 
+                    Umożliwia zmianę języka systemu <br><br>
+                    Wbudowane języki: <br>
+                    <pOPT style="font-style: italic;"> Polski <br> Angielski <br> </pOPT> <br>
+                    
+                    możliwe ustawienia (ID): <br>
+                    pl <br>
+                    eng <br> <br>
+
+                    <strong style="font-size: 20px; color: white;"> syntax: langchn ID </strong> <br> <br>
+
+                    <pWARN style="font-size: 16px; color: red;"> Nie wszystko może być dokładnie przetłumaczone </pWARN>
+                </p2>
+                <hr>
+
+                AUTOCLEAN <br>
+                <p2 style="font-size: 16px; color: white;"> Usuwa tymczasowe pliki tworzone przez system w trakcie jego działania <br>
+                    <pWARN style="font-size: 16px; color: red;"> Uruchomienie tej procedury podczas działania niektórych natywnych programów dla mDOS może spowodować ich niepoprawne działanie</pWARN>
+                </p2>
+                <hr>
+
+                USRLIST <br>
+                <p2 style="font-size: 16px; color: white;">
+                    Wyświetla listę utworzynych użytkowników <br>
+                    Gdy na liście brakuje jakiegoś użytkownika znaczy to, że nalerzy ja zsynchronizować <br>
+                    Można to zrobić automatycznie wpisując USERSETTINGS i wybrać opcję numer 6 <pVINF style="color: orange;">  (OD wersji 4.3) </pVINF> , lub ręcznie zmodyfikować plik "User_list.cfg" w folderze głównym 
+                </p2>
+                <hr>
+
+                COLOR <br>
+                <p2 style="font-size: 16px; color: white;"> Zmienia kolory tła i tekstu wyświetlanego w mDOS <br> </p2>
+                <hr>
+
+                QUICKLINK <br>
+                <p2 style="font-size: 16px; color: white;"> 
+                    Pozwala na przypisanie do 1 z 9 slotów dowolnej ścieżki folderu <br> <br>
+                    By przejść do przypisanego folderu należy wpisać F i numer slotu. <br>
+                    przykład: F1 <br> <br>
+
+                    Tworzenie nowego linku <br>
+                    Wybierz numer slotu <br>
+                    <pWARN style="font-size: 16px; color: red;"> Jeśli slot jest już zajęty zostanie on nadpisany</pWARN> <br>
+                    
+                    Kreator: <br>
+                    Wpisz całą ścieżkę do folderu i naciśnij enter <br>
+                    Link zostanie utworzony <br>
+                </p2>
+                <hr>
+
+                AUTOSTART <br>
+                <p2 style="font-size: 16px; color: white;"> Usługa autostart uruchamia automatycznie po zalogowaniu na konto urzytkownika przypisaną aplikacje <br>
+                    <pWARN style="font-size: 16px; color: red;"> Obecnie nie ma możliwości przypisania aplikacki do konta urzytkownika oraz uruchomienia kilku aplikacji na raz </pWARN>
+                </p2>
+                <hr>
+                
+                <div id="commCAL"></div>
+                CAL <br>
+                <p2 style="font-size: 16px; color: white;">
+                    Wbudowany kalkulator <br>
+                    oblicza liczbe A i liczbe B z wybranym znakiem <br> <br>
+                    Obsługiwane znaki: <br>
+                    "+" <br>
+                    "-" <br>
+                    "*" <br>
+                    "/" <br>
+                    Możliwe jest obliczanie liczb stałoprzecinkowych (int) i zmiennoprzecinkowych (float) <pVINF style="color: orange;">  (OD wersji 4.3) </pVINF> <br>
+                    <strong style="font-size: 20px; color: white";> syntax: cal liczba_A znak liczba_B </strong> <br>
+                    przykład: cal 30 + 20 <br>
+                </p2>
+                <hr>
+
+            </p2>
+
+            <h1 id="password_conversion" style="color: white"> Konwersja hasła użytkownika </h1> <br>
+            
+            <hr>
+        </div>
+
+        <script src="buttons_functions.js"></script>
+    </body>
+
+</html>

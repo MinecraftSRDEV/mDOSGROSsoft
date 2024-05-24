@@ -12,17 +12,17 @@
 		}	
 	]
 }
-4.4DEV4
+4.4DEV5
 {
 	[
 		{
 			"version_type":"experimental"
 		},
 		{
-			"importance_level":"optional"
+			"importance_level":"important"
 		},
 		{
-			"update_comment":"A#SPACEColorfully#SPACEupdate"
+			"update_comment":"A#SPACEfairly#SPACElarge#SPACEupdate#SPACEand#SPACEprobably#SPACEone#SPACEof#SPACEthe#SPACElast#SPACEfor#SPACEversion#SPACE4.4.#SPACE!!WARNING!!#SPACEAll#SPACEfunctions#SPACErelated#SPACEto#SPACEthe#SPACEconfig.cfg#SPACEfile#SPACEhave#SPACEbeen#SPACEchanged.#SPACEPartial#SPACEreconfiguration#SPACEof#SPACEthe#SPACEsystem#SPACEis#SPACErequired#SPACEafter#SPACEinstallation.#SPACEThis#SPACEdoes#SPACEnot#SPACEdelete#SPACEuser#SPACEdata,#SPACEbut#SPACEreconfiguration#SPACEis#SPACEnecessary."
 		}	
 	]
 }
