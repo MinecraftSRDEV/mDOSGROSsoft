@@ -19,10 +19,10 @@
 			"version_type":"experimental"
 		},
 		{
-			"importance_level":"important"
+			"importance_level":"small"
 		},
 		{
-			"update_comment":"A#SPACEfairly#SPACElarge#SPACEupdate#SPACEand#SPACEprobably#SPACEone#SPACEof#SPACEthe#SPACElast#SPACEfor#SPACEversion#SPACE4.4.#SPACE!!WARNING!!#SPACEAll#SPACEfunctions#SPACErelated#SPACEto#SPACEthe#SPACEconfig.cfg#SPACEfile#SPACEhave#SPACEbeen#SPACEchanged.#SPACEPartial#SPACEreconfiguration#SPACEof#SPACEthe#SPACEsystem#SPACEis#SPACErequired#SPACEafter#SPACEinstallation.#SPACEThis#SPACEdoes#SPACEnot#SPACEdelete#SPACEuser#SPACEdata,#SPACEbut#SPACEreconfiguration#SPACEis#SPACEnecessary."
+			"update_comment":"A#SPACEfirst#SPACEpotencial#SPACErelase#SPACEcandidate#SPACEfor#SPACEmDOS#SPACE4.4#SPACEversion.#SPACEThis#SPACEupdate#SPACEcontains#SPACEsome#SPACEbug#SPACEfixes#SPACEand#SPACEcode#SPACEimprovements"
 		}	
 	]
 }
