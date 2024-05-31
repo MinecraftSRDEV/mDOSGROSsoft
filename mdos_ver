@@ -1,4 +1,4 @@
-4.3
+4.4
 {
 	[
 		{
@@ -8,21 +8,7 @@
 			"importance_level":"important"
 		},
 		{
-			"update_comment":"Big#SPACEUpdate,#SPACEand#SPACEcritical#SPACEbug#SPACEfix"
-		}	
-	]
-}
-4.4DEV5
-{
-	[
-		{
-			"version_type":"experimental"
-		},
-		{
-			"importance_level":"small"
-		},
-		{
-			"update_comment":"A#SPACEfirst#SPACEpotencial#SPACErelase#SPACEcandidate#SPACEfor#SPACEmDOS#SPACE4.4#SPACEversion.#SPACEThis#SPACEupdate#SPACEcontains#SPACEsome#SPACEbug#SPACEfixes#SPACEand#SPACEcode#SPACEimprovements"
+			"update_comment":"Time#SPACEto#SPACEfinally#SPACEwrap#SPACEup#SPACEwork#SPACEon#SPACEmDOS#SPACE4.4.#SPACEThis#SPACEis#SPACEthe#SPACEofficial#SPACErelease,#SPACEsummarizing#SPACEall#SPACEprevious#SPACEexperimental#SPACEversions#SPACEfor#SPACEthis#SPACErelease.#SPACEWarning:#SPACEthis#SPACEversion#SPACErequires#SPACEreconfiguration#SPACEafter#SPACEupdating#SPACEfrom#SPACEan#SPACEolder#SPACEversion."
 		}	
 	]
 }
